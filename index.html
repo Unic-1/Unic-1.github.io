@@ -2,13 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Particle Test</title>
-    <script src="//cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-    <link href='//fonts.googleapis.com/css?family=ABeeZee' rel='stylesheet'>
-    <link href='//fonts.googleapis.com/css?family=Arimo' rel='stylesheet'>
-    <link href='//fonts.googleapis.com/css?family=Anaheim' rel='stylesheet'>
-    <link href='//fonts.googleapis.com/css?family=Alegreya Sans' rel='stylesheet'>
+    <title>Unic-1: Satyam Rai</title>
     <link rel="stylesheet" href="bootstrap-4-dist/css/bootstrap.min.css">
+    <script src="particles.js/particles.min.js"></script>
+    <script src="jquery-3.1.1.min.js"></script>
+    <script src="bootstrap-4-dist/js/bootstrap.min.js"></script>
+
     <style>
         * {
             margin: 0;
@@ -22,183 +21,92 @@
 
         #snowfall {
             width: 100%;
-            height: 80vh;
             background: cornflowerblue;
             position: absolute;
             z-index: -1;
         }
 
-        .center {
-            position: absolute;
+        img#unic1 {
+            position: fixed;
+            width: 50%;
+        }
+
+        .col-lg-6 {
+            padding: 0;
+        }
+
+        .row {
+            margin: 0;
+            text-align: center;
+        }
+
+        .navbar {
+            position: fixed;
+            width: 100%;
             z-index: 100;
-            margin-left: auto;
-            margin-right: auto;
-            left: 0;
-            right: 0;
         }
 
-        .jumbotron .container {
-            text-align: center;
-        }
-
-        .jumbotron {
-            background-color: transparent;
-            border-bottom: dotted 5px lightsteelblue;
-        }
-
-        .row {
-            padding: 20px;
-            text-align: center;
-        }
-
-        p {
-            font-size: 22px;
-            font-family: ABeeZee;
-        }
-
-        .clear {
-            clear: both;
-        }
-
-        .navi {
-            margin: 20px;
-        }
-
-        .navi-link {
+        #navbarNavAltMarkup {
             float: right;
-            padding: 10px;
-            margin-bottom: 0;
         }
 
-        .navi-font {
-            font-family: Alegreya Sans;
-            font-size: 22px;
-        }
-
-        h4 a {
-            color: darkgray;
-        }
-
-        h4 a:hover {
-            text-decoration: none;
-            color: black;
-        }
-
-        .active {
-            color: black;
-            font-size: 25px;
-            text-decoration: underline;
-        }
-
-        .main {
-            min-height: 180vh;
-        }
-
-        .row {
-            margin-right: 0px;
-        }
-
-        #footer-wrapper {
-            margin-top: 30px;
-        }
-
-        #bio {
-            text-align: center;
-        }
-
-        #bio h1 {
-            margin-top: 65px;
-            font-family: Arimo;
-        }
-
-        #bio h2 {
-            font-family: Anaheim;
-            margin-bottom: 30px;
+        #contact {
+            position: absolute;
+            width: 100%;
+            color: white;
+            padding: 50px;
         }
     </style>
 </head>
 <body>
-<div class="main">
-    <!--Navigation-->
-    <div class="navi">
-        <!--<img src="..." alt="Logo">
-        <h4 class="navi-link navi-font"><a href="#">Blog</a></h4>
-        <h4 class="navi-link navi-font"><a href="#">About Me</a></h4>-->
-        <h4 class="navi-link navi-font"><a href="#" class="active">Home</a></h4>
-    </div>
-    <div class="clear"></div>
-    <div id="" class="center container">
-        <div class="jumbotron jumbotron-fluid">
-            <div class="container">
-                <img src="images/my_image.jpg"
-                     style="border-radius: 50%; height: 250px; width: 250px; border-style: solid; border-width: 5px; border-color: black;">
-                <h1 class="display-3" style="
-    color: white;
-    border-bottom: solid 3px black;
-">Welcome</h1>
-                <p class="lead">1010100 1101000 1101001 1110011 1101001 1110011 1010011 1100001 1110100 1111001 1100001 1101101 1010010 1100001 1101001
-                    </p>
+<div>
+    <div>
+        <!--Navigation Bar-->
+        <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+            <a class="navbar-brand" href="#">
+                <img src="/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+                Unic-1
+            </a>
+            <div class="navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="#">Features</a>
+                    <a class="nav-item nav-link" href="#">Pricing</a>
+                    <a class="nav-item nav-link disabled" href="#">Disabled</a>
+                </div>
             </div>
+        </nav>
+    </div>
+    <div class="col-lg-6">
+        <!--photo-->
+        <img id="unic1" src="images/my_image.jpg">
+    </div>
+    <div class="col-lg-6">
+        <div class="row">
+            <!--About-->
+            <h1>About Me</h1>
         </div>
         <div class="row">
-            <div id="bio">
-                <!--<h2><em>Hi,</em></h2>
-                <p>&nbsp;&nbsp;&nbsp;&nbsp;My name is Satyam Rai. I am a BTech student at Alliance University Bangalore.
-                    I am keen on learning new technical stuff and sharing the knowledge. I have worked on Android App
-                    Dev.
-                    for some time and have recently started Web Dev.</p>
-                <p>&nbsp;&nbsp;&nbsp;&nbsp;I believe on making use of the things you learn. I have written some codes to
-                    fulfill
-                    my needs, some of
-                    which are <br>&nbsp;&nbsp;&nbsp;&nbsp;"RemoteMouse" which is an application for Android with the
-                    help of
-                    which we can use the mouse
-                    since I was a bit lazy to stretch my hand till the touchpad :P<br>
-                    &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/Ubinic/BrightnessController">Brightness
-                        Controller</a>,
-                    it is a simple java program which can help you increase or decrease the brightness
-                    of the screen. This I made since my laptop key were not functioning :D</p>
-                <p>&nbsp;&nbsp;&nbsp;&nbsp;Other than programming I am interested in music. I play guitar and a bit of
-                    singing(not so good :P).
-                    And I am always looking forward in learning new things which interests me. :)</p>-->
-
-                <h1 class="col-lg-6">Who am I?</h1>
-                <h2>I am Unic, a tech enthusiast and dedicated developer.</h2>
-                <hr>
-                <h1>What are my skills?</h1>
-                <h2>I am full stack developer & mobile app developer</h2>
-                <hr>
-                <h1>What have ?</h1>
-                <h2></h2>
-                <hr>
-            </div>
-            <div>
-                <button class="btn btn-primary" href="#">About Me</button>
-            </div>
+            <!--Achievement-->
+            <h1>Achievement</h1>
         </div>
-    </div>
-    <div class="clear"></div>
-    <div id="snowfall"></div>
-
-
-</div>
-
-<!--Footer-->
-<div id="footer-wrapper">
-    <div class="row">
-        <div class="col-lg-4">
-            <!--<h3 class="navi-font">You can reach to me at:</h3>
-            //Todo: Put social media buttons-->
-        </div>
-        <div class="col-lg-4" style="text-align: center">
-            Copyright &#169 by mysite.com. All Rights Reserved.
-        </div>
-        <div class="col-lg-4">
-
+        <div class="row">
+            <!--Contact-->
+            <h1 id="contact">Contact</h1>
+            <div id="snowfall"></div>
         </div>
     </div>
 </div>
+
 <script>
+    $(document).ready(function (e) {
+        var height = $(window).height() - $(".navbar").height();
+        $("#unic1").height($(window).height() - $(".navbar").height());
+        $(".row").height($(window).height() - $(".navbar").height());
+        $(".col-lg-6").css("marginTop", $("nav").height() + 16);
+        $("#snowfall").height(height);
+    });
+
     particlesJS("snowfall", {
         "particles": {
             "number": {
