@@ -2,29 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2403cf86-8ac8-4418-9c14-7647031268a6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/bubble-style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/hex-style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/network-style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/bubble-index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/hex-index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/network-index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n_index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/particles.js/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/particles.js/LICENSE.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/particles.js/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/particles.js/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/particles.js/demo/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/particles.js/demo/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/particles.js/demo/js/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/particles.js/demo/js/lib/stats.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/particles.js/demo/particles.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/particles.js/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/particles.js/particles.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/anim-style.css" afterPath="$PROJECT_DIR$/css/anim-style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/anim-index.js" afterPath="$PROJECT_DIR$/js/anim-index.js" />
     </list>
     <ignored path="Unic-1.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -58,8 +36,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="100" column="49" selection-start-line="100" selection-start-column="25" selection-end-line="100" selection-end-column="49" />
+            <state relative-caret-position="527">
+              <caret line="121" column="37" selection-start-line="121" selection-start-column="37" selection-end-line="121" selection-end-column="37" />
               <folding>
                 <element signature="e#4376#7449#0" expanded="false" />
               </folding>
@@ -280,7 +258,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="http.proxy" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -355,7 +333,7 @@
       <workItem from="1484117369458" duration="764000" />
       <workItem from="1484916619980" duration="11412000" />
       <workItem from="1485226315705" duration="2552000" />
-      <workItem from="1485396667088" duration="180000" />
+      <workItem from="1485396667088" duration="349000" />
     </task>
     <task id="LOCAL-00001" summary="Contact anim completed">
       <created>1484917225455</created>
@@ -364,17 +342,24 @@
       <option name="project" value="LOCAL" />
       <updated>1484917225455</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="semi-completed">
+      <created>1485396907158</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1485396907158</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15397000" />
+    <option name="totallyTimeSpent" value="15566000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="1" width="1364" height="726" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26533744" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26533744" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -406,7 +391,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Contact anim completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Contact anim completed" />
+    <MESSAGE value="semi-completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="semi-completed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -578,8 +564,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="100" column="49" selection-start-line="100" selection-start-column="25" selection-end-line="100" selection-end-column="49" />
+        <state relative-caret-position="527">
+          <caret line="121" column="37" selection-start-line="121" selection-start-column="37" selection-end-line="121" selection-end-column="37" />
           <folding>
             <element signature="e#4376#7449#0" expanded="false" />
           </folding>
