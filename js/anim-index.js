@@ -21,14 +21,14 @@ var debug;
 
 
 $(document).ready( function(){
-  WIDTH = window.innerWidth;
+  WIDTH = window.innerWidth/2;
   HEIGHT = window.innerHeight;
   init();
   
   $( window ).resize( function(){
 		camera.aspect = window.innerWidth / window.innerHeight;
 		camera.updateProjectionMatrix();
-		renderer.setSize( window.innerWidth, window.innerHeight ); 
+		renderer.setSize( window.innerWidth, window.innerHeight );
 		
 		var size = screenSizeToObject(camera, renderer);
 		debug.scale.x = size.width;
