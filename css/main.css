@@ -2522,6 +2522,21 @@ span.stButton_gradient,
   border-color:#DD4C3B;
 }
 
+#error-page i.fa-github:hover,
+#coming-soon i.fa-github:hover {
+  background-color: transparent;
+  color: #24292e;
+  border-color: #24292e;
+}
+
+#error-page i.fa-linkedin:hover,
+#coming-soon i.fa-linkedin:hover {
+  background-color: transparent;
+  color: #0077b5;
+  border-color: #0077b5;
+}
+
+
 /*************************
 ******Coming Soon CSS*****
 **************************/
