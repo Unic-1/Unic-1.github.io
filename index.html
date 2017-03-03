@@ -1,250 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Unic-1: Satyam Rai</title>
-    <link rel="stylesheet" href="bootstrap-4-dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/anim-style.css">
-    <link rel="stylesheet" href="css/bubble-style.css">
-    <script src="particles.js/particles.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
-    <script src="jquery-3.1.1.min.js"></script>
-    <script src="bootstrap-4-dist/js/bootstrap.min.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Coming Soon | Unic-1</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet"> 
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
 
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+    <!--[if lt IE 9]>
+        <script src="js/html5shiv.js"></script>
+        <script src="js/respond.min.js"></script>
+    <![endif]-->       
+    <link rel="shortcut icon" href="images/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+</head><!--/head-->
 
-        canvas {
-            display: block;
-        }
-
-        #snowfall {
-            width: 100%;
-            background: cornflowerblue;
-            position: absolute;
-            z-index: -1;
-        }
-
-        img#unic1 {
-            position: fixed;
-            width: 50%;
-        }
-
-        .col-lg-6 {
-            padding: 0;
-        }
-
-        .row {
-            margin: 0;
-            text-align: center;
-        }
-
-        .navbar {
-            position: fixed;
-            width: 100%;
-            z-index: 100;
-        }
-
-        #navbarNavAltMarkup {
-            float: right;
-        }
-
-        h1 {
-            position: absolute;
-            width: 100%;
-            color: white;
-            padding: 50px;
-            z-index: 20;
-        }
-    </style>
-</head>
 <body>
-<div>
-    <div>
-        <!--Navigation Bar-->
-        <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
-            <a class="navbar-brand" href="#">
-                <img src="/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top"
-                     alt="">
-                Unic-1
-            </a>
-            <div class="navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-item nav-link active" href="#about-section">About Me <span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" href="#achievement-section">Achievement</a>
-                    <a class="nav-item nav-link" href="#contact-section">Contact</a>
+    <div class="logo-image">
+        <a href="index1.html" style="font-size: 100px;"><b>Unic-1</b></a>
+       <!--<a href="index1.html"><img class="img-responsive" src="images/logo.png" alt=""> </a>-->
+    </div>
+     <section id="coming-soon">        
+         <div class="container">
+            <div class="row">
+                <div class="col-sm-8 col-sm-offset-2">                    
+                    <div class="text-center coming-content">
+                        <h1>UNDER CONSTRUCTION</h1>
+                        <p>We have been spending long hours in order to launch our new website.
+                            We will offer a brand new blog and featured content of our latest work. Join our mailing list or follow us on<br /> Facebook or Twitter to stay up to date.</p>
+                        <div class="social-link">
+                            <span><a href="https://www.facebook.com/profile.php?id=100015507283282"><i class="fa fa-facebook"></i></a></span>
+                            <span><a href="https://github.com/Unic-1"><i class="fa fa-github"></i></a></span>
+                            <span><a href="https://www.linkedin.com/in/satyam-rai-0b4708110/"><i class="fa fa-linkedin"></i></a></span>
+                        </div>
+                    </div>                    
+                </div>
+                <div class="col-sm-12">
+                    <div class="time-count">
+                        <ul id="countdown">
+                            <li class="angle-one">
+                                <span class="days time-font">00</span>
+                                <p>Days</p>
+                            </li>
+                            <li class="angle-two">
+                                <span class="hours time-font">00</span>
+                                <p>Hours</p>
+                            </li>
+                            <li class="angle-three">
+                                <span class="minutes time-font">00</span>
+                                <p class="minute">Mins</p>
+                            </li>                            
+                            <li class="angle-four">
+                                <span class="seconds time-font">00</span>
+                                <p>Secs</p>
+                            </li>               
+                        </ul>   
+                    </div>
                 </div>
             </div>
-        </nav>
-    </div>
-    <div class="col-lg-6">
-        <!--photo-->
-        <img id="unic1" src="images/my_image.jpg">
-    </div>
-    <div class="col-lg-6">
-        <div class="row" id="about-section">
-            <!--About-->
-            <h1>About Me</h1>
-            <div id="container"></div>
-            <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-            <script src='http://code.createjs.com/createjs-2013.05.14.min.js'></script>
-            <script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/r70/three.min.js'></script>
+        </div>       
+    </section>
+    <section id="subscribe">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-10 col-sm-offset-1">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <h2><i class="fa fa-envelope-o"></i> SUBSCRIBE TO OUR NEWSLETTER</h2>
+                            <p>Stay tuned to get cool new things from us.<br />We will ping you as our site is ready. </p>
+                        </div>
+                        <div class="col-sm-6 newsletter">
+                            <form id="newsletter">
+                                <input class="form-control" type="email" name="email"  value="" placeholder="Enter Your email">
+                                <i class="fa fa-check"></i>
+                            </form>
+                            <p>Don't worry we will not use your email for spam</p>
+                        </div>    
+                    </div>
+                </div>     
+            </div>
+        </div> 
+    </section>
 
-            <script src="js/anim-index.js"></script>
+    <section id="coming-soon-footer" class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="text-center">
+                    <p>&copy; Unic-1 2017. All Rights Reserved.</p>
+                    <p>Designed by <a target="_blank" href="http://www.themeum.com">Themeum</a></p>
+                </div>
+            </div>
+        </div>       
+    </section>
+    
 
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/coundown-timer.js"></script>
+    <script type="text/javascript" src="js/wow.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript">
+            //Countdown js
+         $("#countdown").countdown({
+                date: "10 march 2017 12:00:00",
+                format: "on"
+            },      
+            function() {
+                // callback function
+        });
 
-        </div>
-        <div class="row" id="achievement-section">
-            <!--Achievement-->
-            <h1>Achievement</h1>
-
-            <!--<canvas id=c></canvas>
-
-            <script src="js/hex-index.js"></script>-->
-
-            <div id="particles-js"></div>
-            <!-- stats - count particles -->
-            <!--<div class="count-particles"><span class="js-count-particles">&#45;&#45;</span> particles</div>
-            &lt;!&ndash; particles.js lib - https://github.com/VincentGarreau/particles.js &ndash;&gt;
-            <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> &lt;!&ndash; stats.js lib &ndash;&gt;
-            <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
-
-
-            <script src="js/network-index.js"></script>-->
-        </div>
-        <div class="row" id="contact-section">
-            <!--Contact-->
-            <h1 id="contact">Contact</h1>
-            <div id="snowfall"></div>
-        </div>
-    </div>
-</div>
-
-<script>
-    $(document).ready(function (e) {
-        var height = $(window).height() - $(".navbar").height();
-        $("#unic1").height($(window).height() - $(".navbar").height());
-        $(".row").height($(window).height() - $(".navbar").height());
-        $(".col-lg-6").css("marginTop", $("nav").height() + 16);
-        $("#snowfall").height(height);
-        $("#particles-js").height(height);
-    });
-
-    particlesJS("snowfall", {
-        "particles": {
-            "number": {
-                "value": 400,
-                "density": {
-                    "enable": true,
-                    "value_area": 800
-                }
-            },
-            "color": {
-                "value": "#fff"
-            },
-            "shape": {
-                "type": "circle",
-                "stroke": {
-                    "width": 0,
-                    "color": "#000000"
-                },
-                "polygon": {
-                    "nb_sides": 5
-                },
-                "image": {
-                    "src": "img/github.svg",
-                    "width": 100,
-                    "height": 100
-                }
-            },
-            "opacity": {
-                "value": 0.5,
-                "random": true,
-                "anim": {
-                    "enable": false,
-                    "speed": 1,
-                    "opacity_min": 0.1,
-                    "sync": false
-                }
-            },
-            "size": {
-                "value": 10,
-                "random": true,
-                "anim": {
-                    "enable": false,
-                    "speed": 40,
-                    "size_min": 0.1,
-                    "sync": false
-                }
-            },
-            "line_linked": {
-                "enable": false,
-                "distance": 500,
-                "color": "#ffffff",
-                "opacity": 0.4,
-                "width": 2
-            },
-            "move": {
-                "enable": true,
-                "speed": 6,
-                "direction": "bottom",
-                "random": false,
-                "straight": false,
-                "out_mode": "out",
-                "bounce": false,
-                "attract": {
-                    "enable": false,
-                    "rotateX": 600,
-                    "rotateY": 1200
-                }
-            }
-        },
-        "interactivity": {
-            "detect_on": "canvas",
-            "events": {
-                "onhover": {
-                    "enable": true,
-                    "mode": "bubble"
-                },
-                "onclick": {
-                    "enable": true,
-                    "mode": "repulse"
-                },
-                "resize": true
-            },
-            "modes": {
-                "grab": {
-                    "distance": 400,
-                    "line_linked": {
-                        "opacity": 0.5
-                    }
-                },
-                "bubble": {
-                    "distance": 400,
-                    "size": 4,
-                    "duration": 0.3,
-                    "opacity": 1,
-                    "speed": 3
-                },
-                "repulse": {
-                    "distance": 200,
-                    "duration": 0.4
-                },
-                "push": {
-                    "particles_nb": 4
-                },
-                "remove": {
-                    "particles_nb": 2
-                }
-            }
-        },
-        "retina_detect": true
-    });
-
-</script>
+    </script>
+    
 </body>
 </html>

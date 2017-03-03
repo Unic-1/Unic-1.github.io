@@ -1,5 +1,0 @@
-html, body{ margin: 0; padding: 0; width: 100%; height: 100%; }
-#myPlayground{ padding: 0; margin: 0; }
-#container{ padding: 0; margin: 0; }
-#container canvas { background: #212328; }
-#container { overflow: hidden;}
