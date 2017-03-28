@@ -2,9 +2,43 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
 </head>
 <body>
-$END$
+<div class="col-sm-12">
+    <div class="time-count">
+        <ul id="countdown">
+            <li class="angle-one">
+                <span class="days time-font">00</span>
+                <p>Days</p>
+            </li>
+            <li class="angle-two">
+                <span class="hours time-font">00</span>
+                <p>Hours</p>
+            </li>
+            <li class="angle-three">
+                <span class="minutes time-font">00</span>
+                <p class="minute">Mins</p>
+            </li>
+            <li class="angle-four">
+                <span class="seconds time-font">00</span>
+                <p>Secs</p>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<script type="text/javascript" src="js/coundown-timer.js"></script>
+<script type="text/javascript">
+    //Countdown js
+    $("#countdown").countdown({
+            date: "30 march 2017 12:00:00",
+            format: "on"
+        },
+        function () {
+            // callback function
+        });
+
+</script>
 </body>
 </html>
