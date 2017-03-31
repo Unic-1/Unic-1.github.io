@@ -2738,3 +2738,26 @@ span.stButton_gradient,
   border-radius: 100%;
   margin: 10px 0;
 }
+
+.quote {
+  font-size: 22px;
+}
+
+.quote-author {
+  text-align: right;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#top-img {
+  margin-bottom: -72px;
+}
+
+#service-desk {
+  height: 450px;
+  width: 500px;
+}
+
+.navbar-brand h1 {
+  color: #C03035;
+}
